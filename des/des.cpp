@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<windows.h>
-#include"des头文件.h"
+#include"des.h"
 #include<queue>
 using namespace std;
 
@@ -84,7 +84,7 @@ void jiami()
 	fclose(fp1);
 	fclose(fp3);
 	fclose(fp4);
-	fp1=fopen("初始置换.txt","rb");
+	fp1=fopen("ini_exchange.txt","rb");
 	wenjian(fp1);
 
 

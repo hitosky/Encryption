@@ -17,10 +17,10 @@ char she[16][15]=
 "S3.txt","S4.txt",
 "S5.txt","S6.txt",
 "S7.txt","S8.txt",
-"初始置换.txt","明文.txt",
-"密钥.txt","置换1.txt",
-"置换2.txt","置换p.txt",
-"左循环移位.txt","扩展.txt"
+"ini_exchange.txt","uncryptograph.txt",
+"cipher.txt","exchange1.txt",
+"exchange2.txt","exchange_p.txt",
+"left_loop_shift.txt","extend.txt"
 };
 void chushizh(FILE* fp1,FILE*fp2)
 {
